@@ -16,7 +16,7 @@ function Header() {
                     to="/"
                     className="text-4xl font-normal text-text-primary tracking-tight hover:text-primary transition-colors duration-300"
                 >
-                    Dhanyabad behera
+                    Dhanyabad behera. and i am fucking dumb
                 </Link>
                 <nav className="flex gap-10 items-center flex-wrap">
                     <Link
