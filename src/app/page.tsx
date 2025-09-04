@@ -54,7 +54,7 @@ export default function Home() {
                 <div className="lg:w-72 flex justify-center lg:justify-end mt-12 lg:mt-0">
                     <div className="w-56 h-56 relative">
                         <Image
-                            src="/Profile-picture2.jpeg"
+                            src="/Profile-picture2.png"
                             alt="Profile Photo"
                             fill
                             className="rounded-full object-cover shadow-lg"

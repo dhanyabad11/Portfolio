@@ -30,8 +30,8 @@ const Navigation = () => {
                                 href={item.href}
                                 className={`text-xl transition-colors no-underline hover:underline ${
                                     pathname === item.href
-                                        ? "text-blue-600 font-medium"
-                                        : "text-blue-500 hover:text-blue-700"
+                                        ? "text-accent-700 font-medium"
+                                        : "text-accent-700 hover:text-blue-700"
                                 }`}
                             >
                                 {item.label}
