@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { Playfair_Display, Lora } from "next/font/google";
+import { Playfair_Display, Lora, Bebas_Neue } from "next/font/google";
 import "../styles/globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -14,9 +14,17 @@ const lora = Lora({
     variable: "--font-body",
 });
 
+const bebasNeue = Bebas_Neue({
+    weight: "400",
+    subsets: ["latin"],
+    variable: "--font-retro",
+});
+
 export default function MyApp({ Component, pageProps }: AppProps) {
     return (
-        <div className={`${playfairDisplay.variable} ${lora.variable} font-body`}>
+        <div
+            className={`${playfairDisplay.variable} ${lora.variable} ${bebasNeue.variable} font-body`}
+        >
             <Header />
             <main className="container mx-auto max-w-4xl px-4 py-12">
                 <Component {...pageProps} />

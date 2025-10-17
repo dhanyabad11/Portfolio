@@ -35,13 +35,13 @@ const projects: Project[] = [
         id: "ai-disease-predicter",
         title: "AI Disease Predicter",
         description: "Machine learning model for disease prediction",
-        link: "#",
+        link: "https://github.com/dhanyabad11/AI-Disease-predictor",
     },
     {
         id: "space-explore",
         title: "Space Explore",
         description: "Interactive space exploration application",
-        link: "#",
+        link: "https://github.com/dhanyabad11/Space-Explorer",
     },
 ];
 
