@@ -14,7 +14,8 @@ export default function Home() {
                         Hi — I'm Dhanyabad Behera
                     </h1>
                     <p className="text-base text-gray-600">
-                        A short one-line description about what you do. Keep it crisp and minimal.
+                        A curious CS student from Bhubaneswar, India, passionate about exploring new
+                        technologies and collaborating with motivated individuals.
                     </p>
                 </section>
 
